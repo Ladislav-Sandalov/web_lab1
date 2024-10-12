@@ -44,6 +44,4 @@ function updateApartmentInfo() {
 
     // Обновляем информацию на странице
     showApartmentInfo();
-    const contentDiv = document.getElementById('edit-form');
-    contentDiv.style.display = 'block'
 }
