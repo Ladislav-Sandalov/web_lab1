@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Информация о квартире</title>
+      <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <h2>Информация о квартире</h2>
-    <button onclick="showApartmentInfo()">Показать информацию</button>
-    <button onclick="editApartmentInfo()">Редактировать информацию</button>
-    <div id="apartment-info" style="display: none;"></div>
-    <div id="edit-form" style="display: none;">
-        <input type="text" id="address" placeholder="Адрес">
-        <input type="number" id="rooms" placeholder="Количество комнат">
-        <input type="number" id="price" placeholder="Цена">
-        <input type="text" id="repair" placeholder="Ремонт">
-        <button onclick="updateApartmentInfo()">Обновить информацию</button>
+    <div class="container">
+        <h2>Информация о квартире</h2>
+        <button onclick="showApartmentInfo()">Показать информацию</button>
+        <button onclick="editApartmentInfo()">Редактировать информацию</button>
+        <div id="apartment-info" style="display: none;"></div>
+        <div id="edit-form" style="display: none;">
+            <input type="text" id="address" placeholder="Адрес">
+            <input type="number" id="rooms" placeholder="Количество комнат">
+            <input type="number" id="price" placeholder="Цена">
+            <input type="text" id="repair" placeholder="Ремонт">
+            <button onclick="updateApartmentInfo()">Обновить информацию</button>
+        </div>
     </div>
-    
-
-    <script></script>
     <script src="./js/index.js"></script>
 </body>
 </html>
